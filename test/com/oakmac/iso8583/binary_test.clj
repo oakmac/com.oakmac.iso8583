@@ -1,6 +1,6 @@
 (ns com.oakmac.iso8583.binary-test
   (:require
-    [clojure.test :refer [deftest is]]
+    [clojure.test :refer [deftest is testing]]
     [com.oakmac.iso8583.binary :as binary]))
 
 (deftest ubyte-test
