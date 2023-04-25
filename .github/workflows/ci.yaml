@@ -35,9 +35,6 @@ jobs:
           clj-kondo: 2022.05.31        # clj-kondo
           cmd-exe-workaround: 'latest' # Replaces `clojure` with `deps.clj` on Windows
 
-      - name: Execute clojure code
-        run: clojure -e "(+ 1 1)"
-
       - name: Show leiningen version
         run: lein -v
 
