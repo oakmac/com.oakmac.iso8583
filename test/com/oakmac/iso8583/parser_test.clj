@@ -2,7 +2,7 @@
   (:require
    [clojure.string :as str]
    [clojure.test :refer [deftest is testing]]
-   [com.oakmac.iso8583.binary :as binary :refer [bytes-to-hex hex-to-bytes]]
+   [com.oakmac.iso8583.binary :as binary]
    [com.oakmac.iso8583.format :as format]
    [com.oakmac.iso8583.format-iso8583 :as format-iso8583]
    [com.oakmac.iso8583.parser :as parser]))
